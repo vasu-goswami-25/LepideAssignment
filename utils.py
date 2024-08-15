@@ -1,4 +1,4 @@
- from flask import Flask, request, jsonify
+ from flask import Flask, request, jsonify 
 from transformers import BartForConditionalGeneration, BartTokenizer
 from langchain.vectorstores import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
